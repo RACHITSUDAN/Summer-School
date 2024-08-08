@@ -1,0 +1,6 @@
+#include <bits/stdc++.h> 
+bool isPerfectSquare(long long n) {
+	// Write your code here.
+        long long sr = sqrt(n);
+        return (sr * sr == n);   
+}
